@@ -8,6 +8,7 @@ public class BtnGroup{
 					,new JButton("열기")
 					,new JButton("저장")
 					,new JButton("다른 이름으로 저장")
+					,new JButton("추출")
 					,new JButton("닫기")
 	};
 	public static JButton getBtn(int index){

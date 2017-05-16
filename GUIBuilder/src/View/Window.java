@@ -47,6 +47,7 @@ public class Window extends JFrame {
 	
 		toolbar=new ToolBar();
 		toolbar.setBounds(0, 20, 3000, 25);
+	
 		//JPanel bar = new JPanel();
 		
 		

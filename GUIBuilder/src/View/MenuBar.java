@@ -24,8 +24,14 @@ public class MenuBar extends JMenuBar{
 		 JMenuItem saveAs= new JMenuItem("save as...");
 		 lis(saveAs);
 		 file.add(saveAs);
+		 
+		 JMenuItem extract = new JMenuItem("extract..");
+		 lis(extract);
+		 file.add(extract);
+		 
 		 JMenuItem exit= new JMenuItem("exit");
 		 lis(exit);
+		 
 		 file.add(exit);
 	}
 	
@@ -36,6 +42,8 @@ public class MenuBar extends JMenuBar{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO judge(item.getText());
+				
+				/*콘솔창에 버튼에 들어간 텍스트받아지는지 확인*/
 				System.out.println(item.getText());
 			}
 		});
